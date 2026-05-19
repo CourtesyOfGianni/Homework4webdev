@@ -19,7 +19,7 @@ export default function Header({ cart, onCartOpen, navOpen, setNavOpen }) {
         </button>
 
         {/* Desktop nav */}
-        <div className="d-none d-md-flex align-items-center gap-4 mx-auto">
+        <div className="d-none d-md-flex align-items-center gap-4 ms-auto">
           {['home','menu','about','gallery','contact'].map(s => (
             <a key={s} href={`#${s}`} className="nav-link" style={{ textTransform: 'uppercase', fontSize: '0.82rem', letterSpacing: 1 }}>
               {s}
